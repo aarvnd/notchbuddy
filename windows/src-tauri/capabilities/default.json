@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "What NotchBuddy's windows are allowed to do. Everything that touches the OS goes through NotchBuddy's own commands.",
+  "windows": ["island", "settings"],
+  "permissions": ["core:default", "autostart:default"]
+}
